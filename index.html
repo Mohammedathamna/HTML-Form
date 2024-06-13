@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Form</title>
+    <link rel="icon" href="">
+    <style>
+        body {
+            width: fit-content;
+            margin: 0 auto;
+            border: 1px solid #414040;
+        }
+
+        h1,
+        fieldset {
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Basic HTML Form</h1>
+    <fieldset>
+        <legend>Name</legend>
+        <div>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstName">
+        </div>
+        <div>
+            <label for="lname">Last Name </label><br>
+            <input type="text" id="lname" name="lastName">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Other Questions</legend>
+        <div>
+            <label for="drink">Choose a drink:</label><br>
+            <input type="radio" id="drink" name="coffee">Coffee <br>
+            <input type="radio" id="drink" name="tea">Tea <br>
+            <input type="radio" id="drink" name="hotChocolate">Hot Chocolate <br>
+        </div><br>
+        <div>
+            <label for="cream">What cream do you like :</label><br>
+            <input type="checkbox" id="cream" name="Chocolate">Chocolate <br>
+            <input type="checkbox" id="cream" name="ChocolatePudding">Chocolate Pudding <br>
+            <input type="checkbox" id="cream" name="ChocolatePeanutButter">Chocolate Peanut Butter <br>
+            <input type="checkbox" id="cream" name="Vanilla">Vanilla <br>
+            <input type="checkbox" id="cream" name="Strawbery">Strawbery <br>
+
+        </div><br>
+        <div>
+            <label for="school">Select a school:</label><br>
+            <select id="school" name="school">
+                <option value="harverd">Harverd</option>
+                <option value="Oxford">Oxford</option>
+                <option value="California">California</option>
+                <option value="london">London</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="comment">Please provide comments:</label><br>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+    </fieldset>
+</body>
+
+</html>
